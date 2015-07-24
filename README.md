@@ -11,8 +11,6 @@ Including in your project
 compile 'jp.fujiwarakoubou:debugassert:1.0.0'
 ```
 
-Check for latest version number on the widget below or visit [Releases](https://github.com/fujiwarakoubou/debugassert/releases)
-
 Usage
 -----
 
