@@ -4,7 +4,7 @@
  * http://opensource.org/licenses/mit-license.php
  */
 
-package jp.fujiwarakoubou.debugassert;
+package jp.fujiwara.koubou.debugassert;
 
 import android.app.Activity;
 import android.app.DialogFragment;
