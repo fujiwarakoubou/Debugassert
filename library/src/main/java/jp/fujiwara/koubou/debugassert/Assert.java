@@ -57,7 +57,7 @@ public class Assert {
      * @param message
      * @param object
      */
-    public void isNull(String message, Object object) {
+    public void showNull(String message, Object object) {
         if (object == null) {
             showDialog(message);
         }
@@ -68,7 +68,7 @@ public class Assert {
      * @param message
      * @param object
      */
-    public void isNotNull(String message, Object object) {
+    public void showNotNull(String message, Object object) {
         if (object != null) {
             showDialog(message);
         }
@@ -79,7 +79,7 @@ public class Assert {
      * @param message
      * @param judge
      */
-    public void isTrue(String message, boolean judge) {
+    public void showTrue(String message, boolean judge) {
         if (judge == true) {
             showDialog(message);
         }
@@ -90,7 +90,7 @@ public class Assert {
      * @param message
      * @param judge
      */
-    public void isFalse(String message, boolean judge) {
+    public void showFalse(String message, boolean judge) {
         if (judge == false) {
             showDialog(message);
         }
