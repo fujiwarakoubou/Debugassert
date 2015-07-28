@@ -19,7 +19,10 @@ dependencies {
 Usage
 -----
 
-
+```java
+Assert.of().setFragmentManager(getFragmentManager());
+Assert.of().assertTest();
+```
 
 Developed By
 --------------------
