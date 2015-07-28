@@ -12,7 +12,7 @@ repositories {
     maven { url 'http://raw.github.com/fujiwarakoubou/debugassert/master/repository/' }
 }
 dependencies {
-    compile 'jp.fujiwarakoubou:debugassert:1.0.0'
+    compile 'jp.fujiwarakoubou:debugassert:1.0.1'
 }
 ```
 
