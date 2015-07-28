@@ -21,7 +21,7 @@ Usage
 
 ```java
 Assert.of().setFragmentManager(getFragmentManager());
-Assert.of().message("test");
+Assert.of().show("test");
 ```
 
 Developed By
