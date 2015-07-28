@@ -12,7 +12,7 @@ repositories {
     maven { url 'http://raw.github.com/fujiwarakoubou/debugassert/master/repository/' }
 }
 dependencies {
-    compile 'jp.fujiwarakoubou:debugassert:1.0.1'
+    compile 'jp.fujiwarakoubou:debugassert:1.0.3'
 }
 ```
 
@@ -21,7 +21,7 @@ Usage
 
 ```java
 Assert.of().setFragmentManager(getFragmentManager());
-Assert.of().assertTest();
+Assert.of().message("test");
 ```
 
 Developed By
