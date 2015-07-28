@@ -45,17 +45,10 @@ public class Assert {
     }
 
     /**
-     * 「test」が表示されるアサート
-     */
-    public void assertTest() {
-        showDialog("test");
-    }
-
-    /**
      * message をアサート
      * @param message
      */
-    public void assertMessage(String message) {
+    public void show(String message) {
         showDialog(message);
     }
 
@@ -64,7 +57,7 @@ public class Assert {
      * @param message
      * @param object
      */
-    public void assertNull(String message, Object object) {
+    public void isNull(String message, Object object) {
         if (object == null) {
             showDialog(message);
         }
@@ -75,7 +68,7 @@ public class Assert {
      * @param message
      * @param object
      */
-    public void assertNotNull(String message, Object object) {
+    public void isNotNull(String message, Object object) {
         if (object != null) {
             showDialog(message);
         }
@@ -86,7 +79,7 @@ public class Assert {
      * @param message
      * @param judge
      */
-    public void assertTrue(String message, boolean judge) {
+    public void isTrue(String message, boolean judge) {
         if (judge == true) {
             showDialog(message);
         }
@@ -97,7 +90,7 @@ public class Assert {
      * @param message
      * @param judge
      */
-    public void assertFalse(String message, boolean judge) {
+    public void isFalse(String message, boolean judge) {
         if (judge == false) {
             showDialog(message);
         }
